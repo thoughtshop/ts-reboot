@@ -39,6 +39,7 @@ body {
   font-size: var(--body-font-size, 1rem);
   font-family: var(--body-font-family, sans-serif);
   line-height: var(--body-line-height, 1.5);
+  letter-spacing: var(--body-letter-spacing, normal);
   text-align: var(--body-text-align, left);
 
   -webkit-tap-highlight-color: rgb(var(--black) 0); // 4
@@ -76,6 +77,7 @@ hr {
   font-family: var(--headings-font-family, null);
   font-style: var(--headings-font-style, null);
   line-height: var(--headings-line-height, 1.2);
+  letter-spacing: var(--headings-letter-spacing, normal);
 }
 
 h1 {
